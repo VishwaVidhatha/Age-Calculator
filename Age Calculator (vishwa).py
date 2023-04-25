@@ -2,7 +2,7 @@
 from tkinter import *
 from datetime import date
 
-# downoad any image to make it fancy UI
+# downoad any image to make it fancy 
 #from PIL import Image, ImageTk
 #from tkinter import messagebox
 
