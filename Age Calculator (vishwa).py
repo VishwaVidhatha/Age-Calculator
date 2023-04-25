@@ -1,7 +1,9 @@
 #importing modules from tkinter
 from tkinter import *
 from datetime import date
-from PIL import Image, ImageTk
+
+# downoad any image to make it fancy UI
+#from PIL import Image, ImageTk
 #from tkinter import messagebox
 
 #Creating the tkinter window
@@ -14,12 +16,14 @@ today=str(date.today())
 list_today=today.split('-')
 
 #importing image to add into the app
-image = Image.open("D:\\Study\\Python\\v2.png")
+''' Note :- If you download an image and the PIL check to add image file path into the code'''
+
+'''image = Image.open("D:\\Study\\Python\\v2.png")
 resize = image.resize((300, 120), Image.ANTIALIAS)
 photo = ImageTk.PhotoImage(resize)
 ImageLabel = Label(image=photo)
 ImageLabel.place(x=90,y=300)
-ImageLabel.pack(pady=20)
+ImageLabel.pack(pady=20) '''
 
 #creating function to calculate the age
 def calculateAge():
@@ -76,6 +80,7 @@ nameEntry.place(x=300,y=150,)
 dateEntry=Entry(window,textvariable=dateValue,width=7,bd=5,font=27)
 dateEntry.place(x=300,y=200,)
 #monthEntry
+#make sure to enter month in number
 monthEntry=Entry(window,textvariable=monthValue,width=7,bd=5,font=27)
 monthEntry.place(x=300,y=250)
 #yearEntry
