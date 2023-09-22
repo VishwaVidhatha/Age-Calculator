@@ -1,6 +1,10 @@
 # Age-Calculator
 Tkinter interface to know exact age 
 
+# Working
+![Age Calculator Demo](https://github.com/VishwaVidhatha/Brick-Breaker/assets/96835850/af375e44-9034-4a38-be38-179ae3883e7a)
+
+
 Two must things to do :-
 - Make entire portion of importing picture code as comment (only if you're not willing to import picture)
 
